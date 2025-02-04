@@ -175,4 +175,3 @@ cython_debug/
 *.tiff
 *.mp3
 *.csv
-*dataset
