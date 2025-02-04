@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore media files
+*.mp4
+*.tiff
+*.mp3
+*.csv
+*dataset
