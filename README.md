@@ -1,45 +1,27 @@
 # Video-Prediction-of-Particles
 
-## We propose to use conjunction and negation (negative prompts) operators for compositional generation with conditional diffusion models (i.e., Stable Diffusion, Point-E, etc).
-
-### [Project Page](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/) | [Paper](https://arxiv.org/pdf/2206.01714.pdf) | [Google Colab][composable-demo] | [Huggingface][huggingface-demo]
+### Template adapted from:
+[Project Page](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/) | [Paper](https://arxiv.org/pdf/2206.01714.pdf) | [Google Colab][composable-demo] | [Huggingface][huggingface-demo]
 [![][colab]][composable-demo] [![][huggingface]][huggingface-demo]
 
 <hr>
 
-This is the official codebase for **Compositional Visual Generation with Composable Diffusion Models**.
+This is the official implementation for **Compositional Visual-Graph Neural Networks for Video Prediction**.
 
 [Compositional Visual Generation with Composable Diffusion Models](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/)
     <br>
-    [Nan Liu](https://nanliu.io) <sup>1*</sup>,
-    [Shuang Li](https://people.csail.mit.edu/lishuang) <sup>2*</sup>,
-    [Yilun Du](https://yilundu.github.io) <sup>2*</sup>,
-    [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/) <sup>2</sup>,
-    [Joshua B. Tenenbaum](https://mitibmwatsonailab.mit.edu/people/joshua-tenenbaum/) <sup>2</sup>
+    [Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup>,
+    [Yilun Du](https://yilundu.github.io) <sup>2</sup>
     <br>
-    <sup>*</sup> Equal Contribution
     <br>
-    <sup>1</sup>UIUC, <sup>2</sup>MIT CSAIL
+    <sup>1</sup>MIT, <sup>2</sup>Harvard
     <br>
-    [ECCV 2022](https://arxiv.org/pdf/2206.01714.pdf) / [MIT News](https://news.mit.edu/2022/ai-system-makes-models-like-dall-e-2-more-creative-0908) / [MIT CSAIL News](https://www.csail.mit.edu/news/ai-system-makes-models-dall-e-2-more-creative)
 
 [colab]: <https://colab.research.google.com/assets/colab-badge.svg>
 [huggingface]: <https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue>
 [composable-demo]: <https://colab.research.google.com/github/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch/blob/main/notebooks/demo.ipynb>
 [huggingface-demo]: <https://huggingface.co/spaces/Shuang59/Composable-Diffusion>
 
-
-## **News**
-
-* <b>12/22/22</b>: Now you can use our code to apply compositional operators to **[Point-E](https://github.com/openai/point-e)**!
-* <b>12/13/22</b>: ```stabilityai/stable-diffusion-2-1-base``` and other updated versions can now be used for compositional generation. (see [here](https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch/blob/main/scripts/image_sample_compose_stable_diffusion.py)!)
-* <b>10/10/22</b>: Our proposed operators have been added into [stable-diffusion-webui-conjunction](https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/c26732fbee2a57e621ac22bf70decf7496daa4cd)!
-* <b>09/08/22</b>: Our paper is on [MIT News](https://news.mit.edu/2022/ai-system-makes-models-like-dall-e-2-more-creative-0908) and [MIT CSAIL News](https://www.csail.mit.edu/news/ai-system-makes-models-dall-e-2-more-creative)!
-* Now you can try to use compose **[Stable-Diffusion](https://github.com/CompVis/stable-diffusion)** Model using our [![][huggingface]][huggingface-demo] or [![][colab]][composable-demo] to sample 512x512 images.
---------------------------------------------------------------------------------------------------------
-* The codebase is built upon [GLIDE](https://github.com/openai/glide-text2im) and [Improved-Diffusion](https://github.com/openai/improved-diffusion).
-* This codebase provides both training and inference code.
-* **The codebase can be used to train text-conditioned diffusion model in a similar manner as [GLIDE](https://github.com/openai/glide-text2im).**
 
 --------------------------------------------------------------------------------------------------------
 
@@ -192,11 +174,7 @@ If you find our code useful for your research, please consider citing
 
 ``` 
 @inproceedings{liu2022compositional,
-  title={Compositional visual generation with composable diffusion models},
-  author={Liu, Nan and Li, Shuang and Du, Yilun and Torralba, Antonio and Tenenbaum, Joshua B},
-  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part XVII},
-  pages={423--439},
-  year={2022},
-  organization={Springer}
+  title={Compositional Visual-Graph Neural Networks for Video Prediction},
+  author={Yao, Yu and Du, Yilun},
 }
 ```
